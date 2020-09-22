@@ -1,4 +1,12 @@
-WElcome to our Meme generator!
+Welcome to our Meme generator!
+
+https://github.com/MArionRenee/neuer-meme-generator.git
+
+https://codesandbox.io/s/polished-firefly-uv8zw
+
+https://hungry-goldstine-07f1fe.netlify.app
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
