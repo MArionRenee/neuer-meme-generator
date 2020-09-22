@@ -6,30 +6,23 @@
 
 .meme {
   margin: 50px 50px;
-  height: 400px;
-  width: 400px;
-  object-fit: 100%;
+  height: auto;
+  width: auto;
 }
 
 div {
   text-align: center;
 }
 
-#box {
-  box-sizing: border-box;
-  border-style: solid;
-  height: 50px;
-  margin: 50px;
+p {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-weight: light;
 }
 
-p {
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-  box-sizing: border-box;
-  border-style: none;
-  margin: 50px;
-  padding: 50px;
+input {
+  min-width: 200px;
+  min-height: 30px;
 }
 
 button {
@@ -40,11 +33,10 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 40px 8px;
+  font-size: 30px;
   cursor: pointer;
   color: white;
-  border: 2px solid white;
+  border: 3px solid white;
   border-radius: 5px;
 }
 
@@ -54,7 +46,7 @@ button:hover {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1f5155;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -63,16 +55,3 @@ button:hover {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

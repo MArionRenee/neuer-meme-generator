@@ -160,15 +160,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>React Meme Generator</h1>
+        <h1>Our React Meme Generator</h1>
 
         {/* /* Dropdown Menu */}
-        <label>Create your meme!</label>
+        <label>Create your own meme right here!</label>
         <br></br>
 
         <form>
           <label>
-            Pick a picture: <br></br>
+            First pick a picture: <br></br>
             <select
               value={memeChoice}
               onChange={(e) => {
@@ -190,11 +190,15 @@ function App() {
         <img className="meme" src={img} alt="a random Meme" />
 
         <p>
-          <h3>Customize your meme:</h3>
+          <h3>Then choose your text:</h3>
           <label>Top </label>
+          <br></br>
+
           <input value={top} onChange={handleSubmitTop}></input>
+          <br></br>
           <br />
           <label>Bottom </label>
+          <br></br>
           <input onChange={handleSubmitBottom}></input>
         </p>
         <p>
